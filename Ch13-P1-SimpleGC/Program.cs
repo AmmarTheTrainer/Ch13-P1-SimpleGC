@@ -20,5 +20,11 @@ namespace Ch13_P1_SimpleGC
 
             Console.ReadLine();
         }
+        static void MakeACar()
+        {
+            // If myCar is the only reference to the Car object, it *may* be destroyed when this
+            //method returns.
+            Car myCar = new Car();
+        }
     }
 }
