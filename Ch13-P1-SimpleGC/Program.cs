@@ -17,12 +17,8 @@ namespace Ch13_P1_SimpleGC
 
             // The C# dot operator (.) is used to invoke members on the object using our reference variable.
             Console.WriteLine(refToMyCar.ToString());
-
-
-
             Console.ReadLine();
         }
-
         static void MakeACar()
         {
             // If myCar is the only reference to the Car object, it *may* be destroyed when this
